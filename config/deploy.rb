@@ -1,5 +1,5 @@
 # Change these
-server '45.55.229.88', port: your_port_num, roles: [:web, :app, :db], primary: true
+server '45.55.229.88', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:janusha/simply_app9.git'
 set :application,     'simply_app9'
